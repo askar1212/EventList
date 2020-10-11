@@ -1,0 +1,79 @@
+.header_box{
+    width: auto;
+    height:130px;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.title_header_box{
+    text-align: left;
+    margin-top: 30px;
+    float: left;
+}
+.close_button_header_box{
+    margin-left: 35%;
+    margin-top: 55px;
+    position: absolute;
+        float: left;
+
+
+}
+table,th{
+    border:1px solid black;
+    width: 1518px;
+    border-collapse: collapse;
+    padding: 5px;
+
+}
+.popup_header{
+    width: 490px;
+    height: 50px;
+    border-bottom: 1px solid rgba(230, 231, 239, 0.85);
+     padding: 10px;
+    /* padding: 5px; */
+}
+.title_popup_header{
+    float: left;
+ 
+}
+.close_popup_header{
+    float: left; 
+      margin-top: 25px; 
+    margin-left:255px ;
+
+}
+
+.titles_popup_datagrid{
+    text-align: left;
+}
+.popup{
+    /* border: 1px solid black; */
+    width: 500px;
+    height: 400px;
+    display:none;
+
+}
+table{
+    width: 100%;
+}
+#popupContainer{
+    /* position: absolute; */
+    border: 1px solid rgba(230, 231, 239, 0.85);
+    z-index: 5;
+    width:500px;
+    height:550px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    text-align: left;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.1);
+  /* padding: 10px; */
+}
+.tableRow th{
+    background: #E6E7EF
+}
+.popup_datagrid{
+    padding: 10px;
+}
+.error{
+    color: red;
+}
